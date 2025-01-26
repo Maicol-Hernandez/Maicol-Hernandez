@@ -51,7 +51,7 @@ You can click the Preview link to take a look at your changes.
 
 <!-- ![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Maicoldev) -->
 
-### GitHub Trophies
+### 🏆 GitHub Trophies
 [![trophy](https://github-profile-trophy.vercel.app/?username=Maicol-Hernandez&theme=tokyonight)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### Top Contributed Repo
