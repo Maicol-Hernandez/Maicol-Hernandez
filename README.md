@@ -22,7 +22,7 @@ You can click the Preview link to take a look at your changes.
 
 ![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Maicoldev)
 
-## GitHub Trophies:
+### GitHub Trophies
 
-## Top Contributed Repo:
+### Top Contributed Repo
 ![GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=Maicol-Hernandez&theme=tokyonight)
