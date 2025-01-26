@@ -11,7 +11,6 @@ You can click the Preview link to take a look at your changes.
 --->
 
 ## Languages and Tools:
-#### Frontend
 ![Static Badge](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
@@ -21,8 +20,6 @@ You can click the Preview link to take a look at your changes.
 ![Static Badge](https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=vuetify&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Livewire-CF3E90?style=flat&logo=livewire&logoColor=white)
-
-#### Backend
 ![Static Badge](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat&logo=codeigniter&logoColor=white)
@@ -30,7 +27,6 @@ You can click the Preview link to take a look at your changes.
 ![Static Badge](https://img.shields.io/badge/MySQL%20Workbench-00758F?style=flat&logo=mysql&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/PhpMyAdmin-6C78AF?style=flat&logo=phpmyadmin&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
 
 ## Find me at:
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/Maicol-Hernandez)
