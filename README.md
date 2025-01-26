@@ -1,22 +1,22 @@
-# 🌟 Desarrollador Web | Laravel Expert | Fullstack Innovator
+# 🌟 Web Developer | Laravel Expert | Fullstack Innovator
 
-### Hola, soy un apasionado desarrollador web enfocado en construir **soluciones innovadoras, eficientes y escalables**. Con especialización en **Laravel 10** y su ecosistema, adopto un enfoque integral para crear aplicaciones web modernas, funcionales y visualmente atractivas.
+### Hello! I’m a passionate web developer dedicated to building **innovative, efficient, and scalable solutions**. With expertise in **Laravel 10** and its ecosystem, I take a comprehensive approach to crafting modern, functional, and visually appealing web applications.
 
-## 🚀 **Mi Enfoque**
-- **Buenas Prácticas**: Código limpio, patrones de diseño sólidos y escalabilidad.
-- **Resolución de Problemas**: Resolución creativa y efectiva de problemas complejos.
-- **Proyectos Diversos**: Desde sistemas de gestión de eventos hasta herramientas personalizadas para call centers.
-- **Compromiso con la Excelencia**: Siempre en busca de la innovación y el impacto positivo.
-
----
-
-## 📚 **Siempre Aprendiendo**
-Me mantengo actualizado con las últimas tecnologías y tendencias para ofrecer siempre **lo mejor**. Mi objetivo es contribuir con **excelencia técnica**, fomentar el **trabajo en equipo** y generar un impacto duradero en cada proyecto.
+## 🚀 **My Approach**
+- **Best Practices**: Clean code, robust design patterns, and scalability.
+- **Problem-Solving**: Creative and effective solutions to complex challenges.
+- **Diverse Projects**: From event management systems to custom tools for call centers.
+- **Commitment to Excellence**: Always striving for innovation and meaningful impact.
 
 ---
 
-## 🤝 **¿Colaboramos?**
-Si buscas un desarrollador comprometido, apasionado por la innovación y con amplia experiencia técnica, no dudes en **contactarme**. ¡Estoy listo para enfrentar nuevos retos y construir juntos el futuro!
+## 📚 **Always Learning**
+I stay up to date with the latest technologies and trends to consistently deliver **the best results**. My goal is to contribute with **technical excellence**, foster **team collaboration**, and create a lasting impact on every project.
+
+---
+
+## 🤝 **Shall We Collaborate?**
+If you're looking for a dedicated developer, passionate about innovation and equipped with extensive technical expertise, don’t hesitate to **reach out to me**. I’m ready to tackle new challenges and build the future together!
 
 <!---
 Maicol-Hernandez/Maicol-Hernandez is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
