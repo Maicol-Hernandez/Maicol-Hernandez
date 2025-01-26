@@ -1,5 +1,11 @@
 # ![Sticker](https://media.giphy.com/media/ZopRR9hMyhUVymBSOm/giphy.gif) Web Developer | Laravel Expert | Fullstack Innovator
 
+![Sticker](https://media.giphy.com/media/ZTKf1zS9FNAcs2i0b4/giphy.gif)
+
+[![Static Badge](https://img.shields.io/badge/Sticker-Giphy-FE4694?style=flat&logo=giphy&logoColor=white)](https://giphy.com/stickers/transparent-ZTKf1zS9FNAcs2i0b4)
+
+
+
 ### Hello! I’m a passionate web developer dedicated to building **innovative, efficient, and scalable solutions**. With expertise in **Laravel 10** and its ecosystem, I take a comprehensive approach to crafting modern, functional, and visually appealing web applications.
 
 ## 🚀 **My Approach**
