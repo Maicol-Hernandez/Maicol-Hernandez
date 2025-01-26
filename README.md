@@ -2,22 +2,6 @@
 
 ### Hola, soy un apasionado desarrollador web enfocado en construir **soluciones innovadoras, eficientes y escalables**. Con especialización en **Laravel 10** y su ecosistema, adopto un enfoque integral para crear aplicaciones web modernas, funcionales y visualmente atractivas.
 
----
-
-## 🛠️ **Habilidades Técnicas**
-
-### **Frontend**
-- 💅 **CSS/SCSS**
-- 🌐 **TypeScript**, **JavaScript**
-- 🖼️ **Angular**, **Vue.js**, **Vuetify**, **Bootstrap**, **Livewire**
-
-### **Backend**
-- 🐘 **PHP**, **Laravel**, **Node.js**, **CodeIgniter**
-- 🗄️ **MySQL**, **MySQL Workbench**, **PhpMyAdmin**
-- 🐳 **Docker** (configuración y despliegue ágil)
-
----
-
 ## 🚀 **Mi Enfoque**
 - **Buenas Prácticas**: Código limpio, patrones de diseño sólidos y escalabilidad.
 - **Resolución de Problemas**: Resolución creativa y efectiva de problemas complejos.
