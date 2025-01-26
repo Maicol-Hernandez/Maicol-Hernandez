@@ -20,7 +20,7 @@ You can click the Preview link to take a look at your changes.
 ![Static Badge](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Vuetify-1867C0?style=flat&logo=vuetify&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
-![Static Badge](https://img.shields.io/badge/Livewire-4D8AF0?style=flat&logo=livewire&logoColor=white)
+![Static Badge](https://img.shields.io/badge/Livewire-CF3E90?style=flat&logo=livewire&logoColor=white)
 
 #### Backend
 ![Static Badge](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
