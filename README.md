@@ -1,4 +1,6 @@
-#### ![Sticker](https://media.giphy.com/media/ZTKf1zS9FNAcs2i0b4/giphy.gif)
+<h4>
+  <img src="https://media.giphy.com/media/ZTKf1zS9FNAcs2i0b4/giphy.gif" width="150" alt="Sticker">
+</h4>
 # Web Developer | Laravel Expert | Fullstack Innovator
 
 ### Hello! I’m a passionate web developer dedicated to building **innovative, efficient, and scalable solutions**. With expertise in **Laravel 10** and its ecosystem, I take a comprehensive approach to crafting modern, functional, and visually appealing web applications.
