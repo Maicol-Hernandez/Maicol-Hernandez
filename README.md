@@ -1,9 +1,38 @@
-# 👋 Hi, I’m @Maicol-Hernandez
+# 🌟 Desarrollador Web | Laravel Expert | Fullstack Innovator
 
-- 👀 I’m interested in creating robust and scalable web applications using Laravel, Livewire, and modern frontend technologies like Alpine.js.
-- 🌱 I’m currently mastering advanced features in Laravel 10 and exploring best practices in software design patterns.
-- 💞️ I’m looking to collaborate on open-source projects that push the boundaries of web development, particularly in PHP and JavaScript ecosystems.
-- 📫 How to reach me: [Email](maicolhernandez420@gmail.com) | [LinkedIn](www.linkedin.com/in/maicol-hernandez-peralta)
+### Hola, soy un apasionado desarrollador web enfocado en construir **soluciones innovadoras, eficientes y escalables**. Con especialización en **Laravel 10** y su ecosistema, adopto un enfoque integral para crear aplicaciones web modernas, funcionales y visualmente atractivas.
+
+---
+
+## 🛠️ **Habilidades Técnicas**
+
+### **Frontend**
+- 💅 **CSS/SCSS**
+- 🌐 **TypeScript**, **JavaScript**
+- 🖼️ **Angular**, **Vue.js**, **Vuetify**, **Bootstrap**, **Livewire**
+
+### **Backend**
+- 🐘 **PHP**, **Laravel**, **Node.js**, **CodeIgniter**
+- 🗄️ **MySQL**, **MySQL Workbench**, **PhpMyAdmin**
+- 🐳 **Docker** (configuración y despliegue ágil)
+
+---
+
+## 🚀 **Mi Enfoque**
+- **Buenas Prácticas**: Código limpio, patrones de diseño sólidos y escalabilidad.
+- **Resolución de Problemas**: Resolución creativa y efectiva de problemas complejos.
+- **Proyectos Diversos**: Desde sistemas de gestión de eventos hasta herramientas personalizadas para call centers.
+- **Compromiso con la Excelencia**: Siempre en busca de la innovación y el impacto positivo.
+
+---
+
+## 📚 **Siempre Aprendiendo**
+Me mantengo actualizado con las últimas tecnologías y tendencias para ofrecer siempre **lo mejor**. Mi objetivo es contribuir con **excelencia técnica**, fomentar el **trabajo en equipo** y generar un impacto duradero en cada proyecto.
+
+---
+
+## 🤝 **¿Colaboramos?**
+Si buscas un desarrollador comprometido, apasionado por la innovación y con amplia experiencia técnica, no dudes en **contactarme**. ¡Estoy listo para enfrentar nuevos retos y construir juntos el futuro!
 
 <!---
 Maicol-Hernandez/Maicol-Hernandez is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
