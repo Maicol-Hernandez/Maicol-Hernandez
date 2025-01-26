@@ -14,6 +14,9 @@ You can click the Preview link to take a look at your changes.
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
 ## Find me at:
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/TU_USUARIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_LINKEDIN)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:TUCORREO@gmail.com)
 
 ## GitHub Stats:
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Maicol-Hernandez&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
