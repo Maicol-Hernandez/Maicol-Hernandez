@@ -16,9 +16,9 @@ You can click the Preview link to take a look at your changes.
 ## Find me at:
 
 ## GitHub Stats:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Maicol-Hernandez&show_icons=true&theme=tokyonight)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Maicol-Hernandez&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Maicol-Hernandez&layout=donut-vertical&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Maicol-Hernandez&layout=donut-vertical&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Maicol-Hernandez&theme=tokyonight)](https://git.io/streak-stats)
 
