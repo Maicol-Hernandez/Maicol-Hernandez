@@ -35,7 +35,8 @@ You can click the Preview link to take a look at your changes.
 ![Static Badge](https://img.shields.io/badge/GitLab-FC6D26?style=flat&logo=gitlab&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Bitbucket-0052CC?style=flat&logo=bitbucket&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/Chat%20GPT-10A37F?style=flat&logo=openai&logoColor=white)
-
+![Static Badge](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
+![Static Badge](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 
 ## Find me at:
 [![GitHub](https://img.shields.io/badge/GitHub-000?style=flat&logo=github&logoColor=white)](https://github.com/Maicol-Hernandez)
