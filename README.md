@@ -25,3 +25,4 @@ You can click the Preview link to take a look at your changes.
 ## GitHub Trophies:
 
 ## Top Contributed Repo:
+![GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=Maicol-Hernandez&theme=tokyonight)
