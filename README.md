@@ -1,5 +1,5 @@
 <h4>
-  <img src="https://media.giphy.com/media/ZTKf1zS9FNAcs2i0b4/giphy.gif" width="150" alt="Sticker">
+  <img src="https://media.giphy.com/media/ZTKf1zS9FNAcs2i0b4/giphy.gif" width="30" alt="Sticker">
 </h4>
 
 # Web Developer | Laravel Expert | Fullstack Innovator
