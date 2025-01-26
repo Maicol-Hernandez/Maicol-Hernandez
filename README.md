@@ -10,7 +10,7 @@ Maicol-Hernandez/Maicol-Hernandez is a ✨ special ✨ repository because its `R
 You can click the Preview link to take a look at your changes.
 --->
 
-### Languages and Tools:
+## Languages and Tools:
 
 ## Find me at:
 
@@ -21,6 +21,6 @@ You can click the Preview link to take a look at your changes.
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
-### GitHub Trophies:
+## GitHub Trophies:
 
-### Top Contributed Repo:
+## Top Contributed Repo:
