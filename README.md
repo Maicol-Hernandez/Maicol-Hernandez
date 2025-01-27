@@ -64,6 +64,8 @@ You can click the Preview link to take a look at your changes.
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Maicol-Hernandez&theme=tokyonight)](https://git.io/streak-stats)
 [![GitHub Streak](https://streak-stats.demolab.com/?user=Maicol-Hernandez)](https://git.io/streak-stats)
+![GitHub Streak](https://streak-stats.demolab.com?user=Maicol-Hernandez)
+
 
 <!-- ![WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Maicoldev) -->
 
