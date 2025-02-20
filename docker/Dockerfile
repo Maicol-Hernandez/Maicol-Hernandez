@@ -19,7 +19,7 @@ FROM nginx:stable-alpine
 # COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy built files
-COPY --from=builder /app/dist/mi-portafolio/browser /usr/share/nginx/html
+COPY --from=builder /app/dist/Maicol-Hernandez/browser /usr/share/nginx/html
 
 # Container port and health
 EXPOSE 80
