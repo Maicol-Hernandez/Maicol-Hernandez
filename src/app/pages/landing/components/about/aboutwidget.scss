@@ -1,0 +1,33 @@
+@keyframes parallaxEnter {
+    0% {
+        opacity: 0;
+        transform: translateY(100px) scale(0.95);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+@keyframes parallaxLeave {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.98);
+    }
+}
+
+.parallax-layer {
+    will-change: transform;
+    transform-style: preserve-3d;
+}
+
+.parallax-enter {
+    animation: parallaxEnter 1.2s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+}
+
+.parallax-leave {
+    animation: parallaxLeave 0.8s cubic-bezier(0.55, 0.06, 0.68, 0.19) forwards;
+}
