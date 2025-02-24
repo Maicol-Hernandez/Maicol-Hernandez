@@ -4,6 +4,6 @@ import { Landing } from './app/pages/landing/landing';
 
 export const appRoutes: Routes = [
     // { path: 'portafolio', component: MiPortafolioComponent, title: 'Mi Portafolio' },
-    { path: '', component: Landing, title: 'Mi Portafolio' },
+    { path: '', component: Landing, title: 'Maicol-Hernandez' },
     { path: '**', redirectTo: '/notfound' }
 ];
