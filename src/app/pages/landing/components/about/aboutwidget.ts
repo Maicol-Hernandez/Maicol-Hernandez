@@ -24,4 +24,10 @@ export class AboutWidget {
         { icon: 'pi pi-linkedin', url: 'https://linkedin.com' },
         { icon: 'pi pi-twitter', url: 'https://twitter.com' }
     ];
+
+    particles = Array.from({ length: 15 }, () => ({
+        x: Math.random() * 100,
+        y: Math.random() * 100,
+        delay: Math.random() * 5
+    }));
 }
