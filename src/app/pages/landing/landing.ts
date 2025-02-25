@@ -19,8 +19,8 @@ import { ContactsWidget } from './components/contactswidget';
         ServicesWidget,
         Herowidget,
         AboutWidget,
-        ExperienceWidget,
-        PortfolioWidget,
+        // ExperienceWidget,
+        // PortfolioWidget,
         ContactsWidget
     ],
     template: `
@@ -31,9 +31,9 @@ import { ContactsWidget } from './components/contactswidget';
 
                 <hero-widget />
                 <about-widget />
-                <experience-widget />
+                <!-- <experience-widget /> -->
                 <services-widget />
-                <portfolio-widget />
+                <!-- <portfolio-widget /> -->
                 <contacts-widget />
                 <footer-widget />
 
