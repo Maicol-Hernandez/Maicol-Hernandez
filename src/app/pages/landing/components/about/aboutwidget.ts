@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { NgFor } from '@angular/common';
 import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 import { ScrollTopModule } from 'primeng/scrolltop';
 import { ImageModule } from 'primeng/image';

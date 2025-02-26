@@ -27,14 +27,16 @@ import { ContactsWidget } from './components/contactswidget';
         <div class="bg-surface-0 dark:bg-surface-900">
             <div id="home" class="overflow-hidden">
                 <topbar-widget />
-                <!-- class="fixed top-0 flex w-full flex-wrap items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4" -->
-
                 <hero-widget />
-                <about-widget />
-                <!-- <experience-widget /> -->
-                <services-widget />
-                <!-- <portfolio-widget /> -->
-                <contacts-widget />
+
+                <div class="relative overflow-hidden py-16 lg:py-24 bg-surface-50 dark:bg-surface-900">
+                    <about-widget />
+                    <!-- <experience-widget /> -->
+                    <services-widget />
+                    <!-- <portfolio-widget /> -->
+                    <contacts-widget />
+                </div>
+
                 <footer-widget />
 
                 <p-scrolltop
