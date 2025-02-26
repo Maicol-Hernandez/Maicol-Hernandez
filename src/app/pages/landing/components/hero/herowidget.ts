@@ -18,6 +18,6 @@ import { trigger, style, animate, transition } from '@angular/animations';
 })
 export class Herowidget {
     scrollToContent(): void {
-        document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' });
+        document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
     }
 }
