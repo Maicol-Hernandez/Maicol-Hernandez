@@ -7,7 +7,7 @@
             [once]="false"
             class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center animate-duration-2000 animate-ease-in-out"
         >
-            <!-- Vertical title section -->
+            <!-- Vertical Title Section -->
             <div class="lg:col-span-2 flex justify-center lg:block">
                 <div class="lg:-rotate-90 lg:transform origin-center flex items-center">
                     <span class="text-primary-500 dark:text-primary-400 font-bold text-lg tracking-widest">
@@ -17,25 +17,24 @@
                 </div>
             </div>
 
-            <!-- Sección de imagen con efecto agua -->
+            <!-- Image section with water effect -->
             <div class="lg:col-span-3 relative group">
                 <div class="relative w-[200px] h-[187px] mx-auto">
-                    <!-- Efecto de onda animado -->
+                    <!-- Animated wave effect -->
                     <div class="absolute inset-0 overflow-hidden rounded-full animate-float">
                         <div
                             class="absolute inset-0 bg-gradient-to-r from-primary-300/30 to-primary-500/20 dark:from-primary-400/30 dark:to-primary-600/20 animate-wave"
                         ></div>
                     </div>
 
-                    <!-- Contenedor de imagen con efecto flotante -->
-                    <!-- <div class="relative w-[200px] h-[187px] mx-auto"> -->
+                    <!-- Image container with floating effect -->
                     <div class="relative w-[200px] h-[187px] mx-auto animate-float">
                         <svg
                             class="absolute inset-0 w-full h-full"
                             viewBox="0 0 200 187"
                             xmlns="http://www.w3.org/2000/svg"
                         >
-                            <!-- Máscara de blob animada -->
+                            <!-- Animated blob mask -->
                             <mask id="mask0">
                                 <path
                                     fill="#fff"
@@ -44,7 +43,7 @@
                                 />
                             </mask>
 
-                            <!-- Imagen con efecto de distorsión -->
+                            <!-- Image with distortion effect -->
                             <g mask="url(#mask0)">
                                 <image
                                     xlink:href="assets/images/myself_0041x_background_transparent.png"
@@ -55,11 +54,11 @@
                                     y="-8"
                                     class="animate-soft-drift"
                                 />
-                                <!-- Efecto de reflejo de agua -->
+                                <!-- Water reflection effect -->
                                 <rect width="100%" height="100%" fill="url(#waterReflection)" opacity="0.2" />
                             </g>
 
-                            <!-- Definiciones de efectos -->
+                            <!-- Effect definitions -->
                             <defs>
                                 <filter id="waterEffect">
                                     <feTurbulence
@@ -85,7 +84,7 @@
                         </svg>
                     </div>
 
-                    <!-- Partículas flotantes -->
+                    <!-- Floating particles -->
                     <div class="absolute inset-0 animate-particles">
                         @for (particle of particles; track $index) {
                         <div
