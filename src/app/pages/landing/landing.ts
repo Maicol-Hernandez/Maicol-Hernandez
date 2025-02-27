@@ -19,7 +19,7 @@ import { ContactsWidget } from './components/contactswidget';
         ServicesWidget,
         Herowidget,
         AboutWidget,
-        // ExperienceWidget,
+        ExperienceWidget,
         // PortfolioWidget,
         ContactsWidget
     ],
@@ -31,7 +31,7 @@ import { ContactsWidget } from './components/contactswidget';
 
                 <div class="relative overflow-hidden py-16 lg:py-24 bg-surface-50 dark:bg-surface-900">
                     <about-widget />
-                    <!-- <experience-widget /> -->
+                    <experience-widget />
                     <services-widget />
                     <!-- <portfolio-widget /> -->
                     <contacts-widget />

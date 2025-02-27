@@ -1,5 +1,5 @@
-<section id="experience" class="experience bg-surface-50 dark:bg-surface-800 py-20">
-    <div class="container mx-auto px-4 lg:px-8">
+<section id="experience" class="experience">
+    <div class="container mx-auto px-10 lg:py-10 xl:py-16 2xl:py-32">
         <div
             pAnimateOnScroll
             enterClass="animate-fadein"
@@ -8,80 +8,64 @@
             [threshold]="0.3"
             class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start"
         >
-            <!-- Vertical Title Section -->
-            <div class="lg:col-span-2 flex justify-center lg:block">
-                <div class="lg:-rotate-90 lg:transform origin-top-left flex items-center mt-24">
-                    <span class="text-primary-500 dark:text-primary-400 font-bold text-lg tracking-widest uppercase">
-                        Trayectoria
-                    </span>
-                    <div class="hidden lg:block ml-4 h-px w-16 bg-primary-500 dark:bg-primary-400"></div>
-                </div>
-            </div>
-
             <!-- Main Content -->
-            <div class="lg:col-span-10">
-                <p-card class="shadow-xl border-0 bg-surface-0 dark:bg-surface-700">
+            <div class="lg:col-span-12">
+                <p-card class="shadow-shadow border-1 border-surface-200 dark:border-surface-700">
                     <div class="px-6 py-8">
                         <h2
-                            class="text-4xl lg:text-5xl font-bold mb-8 bg-gradient-to-r from-primary-500 to-primary-300 dark:from-primary-400 dark:to-primary-200 bg-clip-text text-transparent"
+                            class="text-4xl lg:text-5xl font-bold mb-14 bg-gradient-to-r from-primary-500 to-primary-300 dark:from-primary-400 dark:to-primary-200 bg-clip-text text-transparent text-center"
                         >
                             Experiencia Profesional
                         </h2>
 
-                        <p-timeline [value]="experiences" layout="vertical" align="alternate">
-                            <ng-template pTemplate="content" let-experience>
-                                <div class="relative pl-8 pb-8">
-                                    <div class="absolute w-4 h-4 bg-primary-500 rounded-full -left-1 top-1 z-10"></div>
-                                    <div
-                                        class="absolute w-px h-full bg-surface-200 dark:bg-surface-600 left-1 top-4"
-                                    ></div>
-
-                                    <p-card
-                                        class="shadow-none border-1 border-surface-100 dark:border-surface-600 hover:shadow-lg transition-all duration-300"
-                                    >
-                                        <div class="p-4">
-                                            <div
-                                                class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4"
-                                            >
-                                                <div>
-                                                    <h3
-                                                        class="text-xl font-semibold text-surface-700 dark:text-surface-100"
-                                                    >
-                                                        {{experience.position}}
-                                                    </h3>
-                                                    <p class="text-primary-500 dark:text-primary-400 font-medium">
-                                                        {{experience.company}}
-                                                    </p>
-                                                </div>
-                                                <p-tag
-                                                    [value]="experience.duration"
-                                                    icon="pi pi-calendar"
-                                                    severity="info"
-                                                    [rounded]="true"
-                                                ></p-tag>
-                                            </div>
-                                            <p class="text-surface-600 dark:text-surface-300 mb-4">
-                                                {{experience.description}}
-                                            </p>
-                                            <div class="flex flex-wrap gap-2">
-                                                <p-tag
-                                                    *ngFor="let tech of experience.technologies"
-                                                    [value]="tech"
-                                                    [rounded]="true"
-                                                    styleClass="text-sm border-1 border-surface-200 dark:border-surface-600 bg-surface-50 dark:bg-surface-800"
-                                                ></p-tag>
-                                            </div>
-                                        </div>
-                                    </p-card>
-                                </div>
-                            </ng-template>
-
-                            <ng-template pTemplate="opposite" let-experience>
-                                <div
-                                    class="hidden md:block text-surface-400 dark:text-surface-500 text-right pr-8 pt-2"
+                        <p-timeline [value]="experiences" align="alternate" styleClass="customized-timeline">
+                            <ng-template #marker let-experience>
+                                <span
+                                    class="flex w-8 h-8 items-center justify-center text-white rounded-full z-10 shadow-sm"
+                                    [style]="{ 'background-color': '#9C27B0' }"
                                 >
-                                    <i [class]="experience.icon + ' text-2xl'"></i>
-                                </div>
+                                    <i [class]="experience.icon"></i>
+                                </span>
+                            </ng-template>
+                            <ng-template #content let-experience>
+                                <p-card
+                                    class="shadow-none border-1 border-surface-100 dark:border-surface-600 hover:shadow-lg transition-all duration-300"
+                                >
+                                    <ng-template #header>
+                                        <h3 class="text-xl font-semibold text-surface-700 dark:text-surface-100">
+                                            {{experience.position}}
+                                        </h3>
+                                    </ng-template>
+
+                                    <ng-template #subtitle>
+                                        <div class="flex justify-between items-center">
+                                            <span class="text-primary-500 dark:text-primary-400 font-medium">
+                                                {{experience.company}}
+                                            </span>
+                                            <p-tag
+                                                [value]="experience.duration"
+                                                icon="pi pi-calendar"
+                                                severity="info"
+                                                [rounded]="true"
+                                            ></p-tag>
+                                        </div>
+                                    </ng-template>
+
+                                    <div class="p-4">
+                                        <p class="text-surface-600 dark:text-surface-300 mb-4">
+                                            {{experience.description}}
+                                        </p>
+                                        <div class="flex flex-wrap gap-2">
+                                            @for (tech of experience.technologies; track $index) {
+                                            <p-tag
+                                                [value]="tech"
+                                                [rounded]="true"
+                                                styleClass="text-sm border-1 border-surface-200 dark:border-surface-600 bg-surface-50 dark:bg-surface-800"
+                                            ></p-tag>
+                                            }
+                                        </div>
+                                    </div>
+                                </p-card>
                             </ng-template>
                         </p-timeline>
                     </div>
