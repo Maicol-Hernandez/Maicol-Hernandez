@@ -108,16 +108,21 @@
                             Michael Fernando Hernández Peralta
                         </h2>
 
+                        <p class="text-2xl font-bold text-primary-500 dark:text-primary-400">
+                            Desarrollador Full Stack
+                        </p>
                         <p class="text-lg text-surface-600 dark:text-surface-300 mb-6 leading-relaxed">
-                            Desarrollador Full Stack con pasión por crear soluciones digitales innovadoras.
-                            Especializado en tecnologías modernas como Angular, Node.js y arquitecturas cloud.
+                            Con más de dos años de experiencia en la industria tecnológica y el desarrollo de software,
+                            me especializo en la creación de soluciones web robustas y escalables. Me destaco por ser
+                            proactivo, analítico y orientado al aprendizaje continuo, siempre en búsqueda de mejorar mis
+                            habilidades y aportar valor en cada proyecto.
                         </p>
 
                         <div class="flex flex-wrap gap-4 mb-8">
                             @for (tech of technologies; track $index) {
                             <p-tag
                                 [value]="tech"
-                                styleClass="text-sm border-1 border-surface-200 dark:border-surface-700 bg-surface-100 dark:bg-surface-800"
+                                styleClass="text-sm border-1 border-surface-200 dark:border-surface-700 bg-surface-100 dark:bg-surface-800 capitalize"
                                 [rounded]="true"
                             ></p-tag>
                             }
@@ -125,6 +130,7 @@
 
                         <div class="flex items-center space-x-4">
                             <p-button
+                                (onClick)="downloadCV()"
                                 label="Ver CV"
                                 icon="pi pi-download"
                                 styleClass="p-button-outlined p-button-primary"

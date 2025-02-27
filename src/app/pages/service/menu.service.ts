@@ -12,7 +12,7 @@ export class MenuService {
     getData(): MenuItem[] {
         return [
             { label: 'Inicio', fragment: 'home' },
-            { label: 'Acerca de', fragment: 'about' },
+            { label: 'Sobre Mi', fragment: 'about' },
             { label: 'Experiencia', fragment: 'experience' },
             { label: 'Servicios', fragment: 'services' },
             { label: 'Portafolio', fragment: 'portfolio' },
