@@ -33,8 +33,8 @@ export class AboutWidget implements OnInit {
 
     constructor() {}
 
-    downloadCV(): void {
-        window.open('assets/cv/Michael_hernadez_peralta_cv_03_01_2025.pdf', '_blank');
+    openCvInNewTab(): void {
+        window.open('assets/cv/Michael_hernandez_peralta_cv_03_01_2025.pdf', '_blank');
     }
 
     ngOnInit(): void {
