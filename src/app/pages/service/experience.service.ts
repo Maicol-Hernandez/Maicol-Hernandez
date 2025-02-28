@@ -19,19 +19,67 @@ export class ExperienceService {
         return [
             {
                 position: 'Desarrollador Full Stack',
-                company: 'Tech Innovators Corp',
-                duration: '2022 - Presente',
+                company: 'First Entry',
+                duration: '2023 - 2025',
                 description:
-                    'Liderazgo en el desarrollo de aplicaciones empresariales usando Angular y Node.js. Arquitectura de microservicios en AWS.',
-                technologies: ['Angular', 'Node.js', 'AWS', 'Docker', 'TypeScript'],
+                    'Lideré el desarrollo de un sistema integral de gestión de eventos que abarcó desde la creación y configuración hasta la automatización de procesos clave. Implementé módulos críticos (GateFlow, Design My VIP, Picture Perfect, formularios de registro y sorteos con reglas de negocio avanzadas) que permitieron automatizar la determinación de ganadores, reduciendo tiempos y errores operativos.',
+                technologies: [
+                    'HTML',
+                    'CSS',
+                    'Bootstrap',
+                    'Javascript',
+                    'PHP',
+                    'JQuery',
+                    'Laravel',
+                    'Livewire',
+                    'AWS',
+                    'MySQL',
+                    'Docker',
+                    'Git',
+                    'GitHub',
+                    'Apache'
+                ],
                 icon: 'pi pi-code'
             },
             {
-                position: 'Frontend Lead',
-                company: 'Digital Solutions S.A.',
-                duration: '2020 - 2022',
-                description: 'Desarrollo de plataformas e-commerce con React y optimización de performance.',
-                technologies: ['React', 'Redux', 'GraphQL', 'Jest', 'Webpack'],
+                position: 'Desarrollador Full Stack',
+                company: 'Urbimall',
+                duration: '2023 - 2024',
+                description:
+                    'En mi rol, lideré la creación de soluciones web con Laravel para el sector e-commerce, enfocándome en diseñar y desplegar aplicaciones que mejoraran la eficiencia operativa y la experiencia del usuario. Gracias a la integración de APIs y servicios clave, logré optimizar procesos críticos como envíos, gestión de inventario, procesamiento de órdenes y pagos, lo que se tradujo en una reducción notable de tiempos operativos y en un aumento en la tasa de conversión.',
+                technologies: [
+                    'HTML',
+                    'CSS',
+                    'Bootstrap',
+                    'Javascript',
+                    'JQuery',
+                    'Laravel',
+                    'AWS',
+                    'MySQL',
+                    'Git',
+                    'GitHub',
+                    'GitLab',
+                    'Apache'
+                ],
+                icon: 'pi pi-code'
+            },
+            {
+                position: 'Desarrollador Junior',
+                company: 'Dyalogo SAS',
+                duration: '2022 - 2023',
+                description:
+                    'Desarrollo completo de aplicaciones web en colaboración con un equipo de desarrolladores senior y profesionales de TI, logrando entregar soluciones orientadas al negocio que mejoraron la eficiencia operativa y la experiencia del usuario.',
+                technologies: [
+                    'Bootstrap',
+                    'JavaScript',
+                    'JQuery',
+                    'PHP',
+                    'MySQL',
+                    'Node.js',
+                    'Git',
+                    'GitHub',
+                    'Apache'
+                ],
                 icon: 'pi pi-desktop'
             },
             {
@@ -48,7 +96,10 @@ export class ExperienceService {
                     'Ionic',
                     'Codeigniter',
                     'MySQL',
-                    'Node.js'
+                    'Node.js',
+                    'Git',
+                    'GitHub',
+                    'Apache'
                 ],
                 icon: 'pi pi-mobile'
             }
