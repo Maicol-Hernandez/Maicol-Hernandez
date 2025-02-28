@@ -36,10 +36,24 @@ export class ExperienceService {
             },
             {
                 position: 'Desarrollador Junior',
-                company: 'Startup Tech Hub',
-                duration: '2018 - 2020',
-                description: 'Implementación de features en aplicación móvil híbrida con Ionic Framework.',
-                technologies: ['Ionic', 'Capacitor', 'Firebase', 'RxJS', 'Sass'],
+                company: 'Facilisimo (Red de servicios del quindio S.A)',
+                duration: '2021 - 2022',
+                description:
+                    'Participé activamente en el ciclo completo de desarrollo de aplicaciones web, colaborando estrechamente con un equipo multidisciplinario para diseñar, implementar y optimizar soluciones alineadas con los objetivos de negocio.',
+                technologies: [
+                    'HTML',
+                    'CSS',
+                    'JavaScript',
+                    'TypeScript',
+                    'Vue',
+                    'Vuetify',
+                    'Ionic',
+                    'Codeigniter',
+                    'PHP',
+                    'MySQL',
+                    'Node.js',
+                    'Express.js'
+                ],
                 icon: 'pi pi-mobile'
             }
         ];
