@@ -1,19 +1,19 @@
-<section id="experience" class="experience bg-surface-50 dark:bg-surface-800 py-8 md:py-12 lg:py-16 xl:py-20">
-    <div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:max-w-7xl 2xl:max-w-8xl">
+<section id="experience" class="experience bg-surface-50 dark:bg-surface-800 py-6 sm:py-8 md:py-12 lg:py-16 xl:py-20">
+    <div class="container mx-auto px-3 xs:px-4 sm:px-5 md:px-8 lg:px-10 xl:max-w-7xl 2xl:max-w-8xl">
         <div
             pAnimateOnScroll
             enterClass="animate-fadein"
             leaveClass="animate-fadeout"
             [once]="false"
             [threshold]="0.3"
-            class="grid grid-cols-1 lg:grid-cols-12 gap-4 sm:gap-6 md:gap-8"
+            class="grid grid-cols-1 lg:grid-cols-12 gap-3 xs:gap-4 sm:gap-5 md:gap-6"
         >
             <!-- Main Content -->
             <div class="lg:col-span-12">
                 <p-card class="shadow-lg border-1 border-surface-200 dark:border-surface-700">
-                    <div class="p-4 sm:p-6 md:p-8">
+                    <div class="p-3 xs:p-4 sm:p-5 md:p-6 lg:p-8">
                         <h2
-                            class="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12 text-center bg-gradient-to-r from-primary-500 to-primary-300 dark:from-primary-400 dark:to-primary-200 bg-clip-text text-transparent"
+                            class="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-6 xs:mb-8 sm:mb-10 md:mb-12 text-center bg-gradient-to-r from-primary-500 to-primary-300 dark:from-primary-400 dark:to-primary-200 bg-clip-text text-transparent"
                         >
                             Experiencia Profesional
                         </h2>
@@ -26,27 +26,43 @@
                         >
                             <ng-template #marker let-experience>
                                 <span
-                                    class="flex w-8 h-8 items-center justify-center text-white rounded-full z-10 shadow-sm bg-primary-500 dark:bg-primary-400"
+                                    class="flex w-6 h-6 xs:w-7 xs:h-7 sm:w-8 sm:h-8 items-center justify-center text-white rounded-full z-10 shadow-sm bg-primary-500 dark:bg-primary-400"
                                 >
-                                    <i [class]="experience.icon + ' text-sm md:text-base'"></i>
+                                    <i [class]="experience.icon + ' text-xs xs:text-sm sm:text-base'"></i>
                                 </span>
+                            </ng-template>
+
+                            <ng-template #opposite let-experience>
+                                <p-tag
+                                    [value]="experience.duration"
+                                    icon="pi pi-calendar"
+                                    severity="info"
+                                    [rounded]="true"
+                                    styleClass="text-2xs xs:text-xs scale-75 xs:scale-90 sm:scale-100"
+                                ></p-tag>
                             </ng-template>
 
                             <ng-template #content let-experience>
                                 <p-card
                                     class="shadow-none border-1 border-surface-100 dark:border-surface-600 hover:shadow-lg transition-all duration-300"
                                 >
-                                    <div class="p-4 sm:p-6">
-                                        <!-- Header Mobile -->
-                                        <div class="md:hidden mb-4">
-                                            <h3
-                                                class="text-lg sm:text-xl font-semibold text-surface-700 dark:text-surface-100 mb-2"
-                                            >
-                                                {{experience.position}}
-                                            </h3>
-                                            <p class="text-primary-500 dark:text-primary-400 text-sm sm:text-base">
-                                                {{experience.company}}
-                                            </p>
+                                    <div class="p-3 xs:p-4 sm:p-5 md:p-6">
+                                        <!-- Mobile Layout -->
+                                        <div class="md:hidden">
+                                            <div class="flex justify-between items-start gap-2 xs:gap-3 mb-3 xs:mb-4">
+                                                <div>
+                                                    <h3
+                                                        class="text-base xs:text-lg sm:text-xl font-semibold text-surface-700 dark:text-surface-100"
+                                                    >
+                                                        {{experience.position}}
+                                                    </h3>
+                                                    <p
+                                                        class="text-primary-500 dark:text-primary-400 text-xs xs:text-sm sm:text-base"
+                                                    >
+                                                        {{experience.company}}
+                                                    </p>
+                                                </div>
+                                            </div>
                                         </div>
 
                                         <!-- Desktop Layout -->
@@ -63,27 +79,27 @@
                                                     {{experience.company}}
                                                 </p>
                                             </div>
-                                            <p-tag
+                                            <!-- <p-tag
                                                 [value]="experience.duration"
                                                 icon="pi pi-calendar"
                                                 severity="info"
                                                 [rounded]="true"
                                                 styleClass="text-sm lg:text-base"
-                                            ></p-tag>
+                                            ></p-tag> -->
                                         </div>
 
                                         <p
-                                            class="text-surface-600 dark:text-surface-300 mb-4 text-sm sm:text-base lg:text-lg leading-relaxed"
+                                            class="text-surface-600 dark:text-surface-300 mb-3 xs:mb-4 text-xs xs:text-sm sm:text-base md:text-lg leading-snug xs:leading-relaxed"
                                         >
                                             {{experience.description}}
                                         </p>
 
-                                        <div class="flex flex-wrap gap-2 sm:gap-3">
+                                        <div class="flex flex-wrap gap-1 xs:gap-2 sm:gap-3">
                                             @for (tech of experience.technologies; track $index) {
                                             <p-tag
                                                 [value]="tech"
                                                 [rounded]="true"
-                                                styleClass="text-xs sm:text-sm border-1 border-surface-200 dark:border-surface-600 bg-surface-50 dark:bg-surface-800"
+                                                styleClass="text-2xs xs:text-xs sm:text-sm border-1 border-surface-200 dark:border-surface-600 bg-surface-50 dark:bg-surface-800"
                                             ></p-tag>
                                             }
                                         </div>

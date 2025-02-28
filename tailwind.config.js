@@ -7,11 +7,17 @@ module.exports = {
     plugins: [primeui],
     theme: {
         screens: {
+            '2xs': breakpoints['2xs'],
+            xs: breakpoints.xs,
             sm: breakpoints.sm,
             md: breakpoints.md,
             lg: breakpoints.lg,
             xl: breakpoints.xl,
-            '2xl': breakpoints['2xl']
+            '2xl': breakpoints['2xl'],
+        },
+        maxWidth: {
+            '8xl': '88rem',
+            '7xl': '80rem',
         },
         extend: {
             animation: {

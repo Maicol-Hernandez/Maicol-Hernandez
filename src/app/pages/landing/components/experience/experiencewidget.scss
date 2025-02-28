@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+    .p-timeline-vertical .p-timeline-event-opposite {
+        flex: 0 0 auto;
+        padding: 0 1rem;
+    }
+
+    .p-timeline-vertical .p-timeline-event-content {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .experience .p-tag-value {
+        font-size: 0.65rem;
+        padding: 0.15rem 0.4rem;
+    }
+
+    .experience .p-card-title {
+        font-size: 1.1rem;
+    }
+}
