@@ -41,18 +41,14 @@ export class ExperienceService {
                 description:
                     'Participé activamente en el ciclo completo de desarrollo de aplicaciones web, colaborando estrechamente con un equipo multidisciplinario para diseñar, implementar y optimizar soluciones alineadas con los objetivos de negocio.',
                 technologies: [
-                    'HTML',
-                    'CSS',
                     'JavaScript',
                     'TypeScript',
                     'Vue',
                     'Vuetify',
                     'Ionic',
                     'Codeigniter',
-                    'PHP',
                     'MySQL',
-                    'Node.js',
-                    'Express.js'
+                    'Node.js'
                 ],
                 icon: 'pi pi-mobile'
             }
