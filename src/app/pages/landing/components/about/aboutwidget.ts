@@ -53,18 +53,17 @@ export class AboutWidget implements OnInit {
             'PHP',
             'Laravel',
             'Livewire',
-            'Inertia.js',
+            'Inertia js',
             'Codeigniter',
             'TypeScript',
             'JavaScript',
             'JQuery',
             'Angular',
             'PrimeNG',
-            'Material',
             'Vue',
             'Vuetify',
-            'Node.js',
-            'Express',
+            'Node js',
+            'Express js',
             'Java',
             'Spring Boot',
             'SQL',
@@ -82,8 +81,7 @@ export class AboutWidget implements OnInit {
             'Bitbucket',
             'Linux',
             'windows',
-            'Wsl2',
-            'VsCode'
+            'WSL2'
         ];
     }
 }
