@@ -80,7 +80,7 @@ export class ExperienceService {
                     'GitHub',
                     'Apache'
                 ],
-                icon: 'pi pi-desktop'
+                icon: 'pi pi-code'
             },
             {
                 position: 'Desarrollador Junior',
@@ -101,7 +101,7 @@ export class ExperienceService {
                     'GitHub',
                     'Apache'
                 ],
-                icon: 'pi pi-mobile'
+                icon: 'pi pi-code'
             }
         ];
     }
