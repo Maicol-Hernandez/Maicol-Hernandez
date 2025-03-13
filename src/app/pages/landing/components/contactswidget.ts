@@ -50,12 +50,31 @@ export class ContactsWidget {
     @Input() subtitle: string = 'Puedes contactarme a través de mis redes sociales o llamarme directamente.';
 
     contacts: Contact[] = [
-        { label: 'WhatsApp', href: `https://wa.me/+57 3143001234`, icon: 'pi-whatsapp', color: 'success' },
-        { label: 'Telegram', href: 'https://www.telegram.com/usuario', icon: 'pi-telegram', color: 'info' },
-        { label: 'Instagram', href: 'https://www.instagram.com/usuario', icon: 'pi-instagram', color: 'help' },
-        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/usuario', icon: 'pi-linkedin', color: 'info' },
-        { label: 'Llamar', href: `tel:+57 3143001234`, icon: 'pi-phone', color: 'primary' }
+        {
+            label: 'WhatsApp',
+            href: `https://wa.me/+573504946469`,
+            icon: 'pi-whatsapp',
+            color: 'success'
+        },
+        {
+            label: 'Instagram',
+            href: 'https://www.instagram.com/maicolhernandezperalta',
+            icon: 'pi-instagram',
+            color: 'help'
+        },
+        {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/maicol-hernandez-peralta',
+            icon: 'pi-linkedin',
+            color: 'info'
+        },
+        {
+            label: 'twitter',
+            href: 'https://x.com/MaicolH51717221',
+            icon: 'pi-twitter',
+            color: 'contrast'
+        }
     ];
 
-    constructor() {}
+    constructor() { }
 }
